@@ -55,7 +55,7 @@ export const getCategory = (id: string) => categories.find((category) => categor
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug)
 export const getCategoryProducts = (id: CategoryId) => products.filter((product) => product.category === id)
 
-export const whatsappNumber = '917204283003'
+export const whatsappNumber = '918867778115'
 export const displayPhone = '+91 7204283003'
 export const contactPhone = '+91 9845384957'
 export const whatsappLink = (message = 'Hi Sri Manjunath Home Furnitures, I would like to know more about your furniture collection.') =>
